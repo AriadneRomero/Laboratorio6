@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina 1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        body {
+            margin: 10px;
+            text-align: justify;
+            background-image: url(./fondogit.jpg);
+        }
+
+        .titulazo {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-align: center;
+            color: mintcream;
+        }
+
+        .menu {
+            padding: 20px;
+            padding-top: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="menu">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">ASRR</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./Index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Pagina1.html">Página 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Pagina2.html">Página 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Pagina3.html">Página 3</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container">
+        <h1 class="titulazo">¿Qué es Git?</h1>
+        <div class="bg-white">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <p>Hoy en día, Git es, con diferencia, el sistema de <strong>control de versiones</strong> moderno
+                        más
+                        utilizado del
+                        mundo. Git es un proyecto de código abierto maduro y con un mantenimiento activo que desarrolló
+                        originalmente
+                        Linus
+                        Torvalds, el famoso creador del kernel del sistema operativo Linux, en 2005. Un asombroso número
+                        de
+                        proyectos de software dependen de Git para el control de versiones, incluidos proyectos
+                        comerciales
+                        y de
+                        código abierto.</p>
+                </div>
+
+                <div class="col-12 col-lg-6">
+                    <p>Los desarrolladores que han trabajado con Git cuentan con una buena representación en la
+                        base de talentos disponibles para el desarrollo de software, y este sistema funciona a la
+                        perfección
+                        en
+                        una
+                        amplia variedad de sistemas operativos e IDE (entornos de desarrollo integrados).</p>
+
+                    <p>Git se ha diseñado teniendo en cuenta el rendimiento, la seguridad y la flexibilidad.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="accordion p-3" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        ¿Qué es un control de versiones?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        El <strong>control de versiones</strong>, también conocido como "control de código fuente", es
+                        la práctica de rastrear y gestionar los cambios en el código de software. Los sistemas de
+                        control de versiones son herramientas de software que ayudan a los equipos de software a
+                        gestionar los cambios en el código fuente a lo largo del tiempo. A medida que los entornos de
+                        desarrollo se aceleran, los sistemas de control de versiones ayudan a los equipos de software a
+                        trabajar de forma más rápida e inteligente.
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            ¿Para que sirve el control de versiones?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            El software de control de versiones realiza un seguimiento de todas las modificaciones en el
+                            código en un tipo especial de base de datos. Si se comete un error, los desarrolladores
+                            pueden ir hacia atrás en el tiempo y comparar las versiones anteriores del código para
+                            ayudar a resolver el error, al tiempo que se minimizan las interrupciones para todos los
+                            miembros del equipo.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <h1 class="titulazo">Caracteríticas</h1>
+        <div class="row">
+            <div class="col-12 col-lg-4 p-3">
+                <div class="card">
+                    <img class="card-img-top" src="./Rendimiento.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Rendimiento</h5>
+                        <p class="card-text">A diferencia de algunos programas de software de control de versiones, Git
+                            no se deja engañar por los nombres de los archivos a la hora de determinar cuál debería ser
+                            el almacenamiento y el historial de versiones del árbol de archivos; en lugar de ello, se
+                            centra en el contenido del propio archivo.</p>
+                        <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-4 p-3">
+                <div class="card">
+                    <img class="card-img-top" src="./Seguridad.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Seguridad</h5>
+                        <p class="card-text">Git se ha diseñado con la principal prioridad de conservar la integridad
+                            del código fuente gestionado. El contenido de los archivos y las verdaderas relaciones entre
+                            estos y los directorios, las versiones, las etiquetas y las confirmaciones, todos ellos
+                            objetos del repositorio de Git, están protegidos con un algoritmo de hash criptográficamente
+                            seguro llamado "SHA1". De este modo, se salvaguarda el código y el historial de cambios
+                            frente a las modificaciones accidentales y maliciosas, y se garantiza que el historial sea
+                            totalmente trazable.</p>
+                        <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-4 p-3">
+                <div class="card">
+                    <img class="card-img-top" src="./Flexibilidad.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Flexibilidad</h5>
+                        <p class="card-text">Uno de los objetivos clave de Git en cuanto al diseño es la flexibilidad.
+                            Git es flexible en varios aspectos: en la capacidad para varios tipos de flujos de trabajo
+                            de desarrollo no lineal, en su eficiencia en proyectos tanto grandes como pequeños y en su
+                            compatibilidad con numerosos sistemas y protocolos.</p>
+                        <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
